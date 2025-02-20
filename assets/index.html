@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - David Aryanto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <div class="progress-bar">
+                <div class="progress-bar-fill"></div>
+            </div>
+            <div class="progress-text">Loading...</div>
+        </div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <header class="cyber-header">
+            <div class="profile-image-container">
+                <img src="bidzz.png" alt="Profile Image" class="profile-image">
+                <div class="cyber-circle"></div>
+            </div>
+            <h1 class="cyber-glitch" data-text="About Me">About Me</h1>
+        </header>
+
+        <section class="cyber-card">
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-label">Name</div>
+                    <div class="info-value">David Aryanto</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Profession</div>
+                    <div class="info-value">Student</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Location</div>
+                    <div class="info-value">Kendal, Jawa Tengah, Indonesia</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Interests</div>
+                    <div class="info-value">Technology, Entrepreneurship, Web Development</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cyber-card">
+            <h2 class="cyber-glitch" data-text="Games">Games</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <div class="game-image-container">
+                        <img src="ml.png" alt="Mobile Legends" class="game-logo">
+                        <div class="cyber-overlay"></div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Mobile Legends</h3>
+                        <div class="cyber-badge">MOBA</div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-image-container">
+                        <img src="mc.png" alt="Minecraft Bedrock Edition" class="game-logo">
+                        <div class="cyber-overlay"></div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Minecraft Bedrock Edition</h3>
+                        <div class="cyber-badge">SANDBOX</div>
+                    </div>
+                </div>            
+                </div>
+            </div>
+        </section>
+
+        <section class="cyber-card">
+            <h2 class="cyber-glitch" data-text="Skills">Skills</h2>
+            <ul class="skills-list">
+                <li class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-name">Technology & Innovation</div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80%">
+                            <div class="progress-glow"></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-name">HTML & CSS</div>
+                        <div class="skill-percentage">87%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="89%">
+                            <div class="progress-glow"></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-name">Business Instinct</div>
+                        <div class="skill-percentage">42%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="42%">
+                            <div class="progress-glow"></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-name">Creative Thinking</div>
+                        <div class="skill-percentage">76%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="76%">
+                            <div class="progress-glow"></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="skill-item">
+                    <div class="skill-header">
+                        <div class="skill-name">Python Development</div>
+                        <div class="skill-percentage">21%</div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="21%">
+                            <div class="progress-glow"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="sound-control">
+        <button id="toggleMusic" class="cyber-button">
+            <i class="fas fa-volume-up"></i>
+        </button>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="play.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
